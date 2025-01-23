@@ -16,8 +16,7 @@ export function ColorPicker (props) {
     return (
         <>
         <div className='square' style={{backgroundColor: color}}>
-          <p className='square_text'>Selected color: 
-            {value}</p>
+          <p className='square_text'>Selected Color: {value}</p>
         </div>
         <p>Select a color:</p>
         <input type="color" id="color" onChange={(e) => handleChange(e)}/>
